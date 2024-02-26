@@ -1,6 +1,6 @@
-# Contact Us Page Android
+# My Contacts Page Android
 
-Simple `Dart` `Flutter` front-end `Contact Us` page for android app.
+Simple `Dart` `Flutter` front-end `Contact` page for android app.
 
 ### Phone:
 
