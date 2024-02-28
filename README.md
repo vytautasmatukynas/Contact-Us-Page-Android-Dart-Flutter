@@ -10,6 +10,6 @@ Simple `Dart` `Flutter` "My Contact" page front-end  for android app.
 
 ### Tablet:
 
-![tablet_h.png](images%2Ftablet_h.png)
-
 ![tablet_v.png](images%2Ftablet_v.png)
+
+![tablet_h.png](images%2Ftablet_h.png)
