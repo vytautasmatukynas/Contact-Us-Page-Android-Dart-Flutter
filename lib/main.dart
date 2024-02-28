@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                 child: Card(
                   color: Colors.white,
                   margin: const EdgeInsets.symmetric(
-                    vertical: 10.0,
+                    vertical: 5.0,
                     horizontal: 25.0,
                   ),
                   shape: RoundedRectangleBorder(
@@ -105,7 +105,7 @@ class MyApp extends StatelessWidget {
                 child: Card(
                   color: Colors.white,
                   margin: const EdgeInsets.symmetric(
-                    vertical: 10.0,
+                    vertical: 5.0,
                     horizontal: 25.0,
                   ),
                   shape: RoundedRectangleBorder(
