@@ -1,11 +1,15 @@
-# My Contact Page Android
+# Contact Us Page Android
 
 Simple `Dart` `Flutter` "My Contact" page front-end  for android app.
 
 ### Phone:
 
-![contact_us.png](images%2Fcontact_us.png)
+![phone_v.png](images%2Fphone_v.png)
+
+![phone_h.png](images%2Fphone_h.png)
 
 ### Tablet:
 
-![img.png](images/contact_us_tablet.png)
+![tablet_h.png](images%2Ftablet_h.png)
+
+![tablet_v.png](images%2Ftablet_v.png)
