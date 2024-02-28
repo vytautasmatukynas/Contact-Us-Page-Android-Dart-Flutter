@@ -2,13 +2,13 @@
 
 Simple `Dart` `Flutter` "My Contact" page for android app.
 
-### Phone:
+### Phone view:
 
 ![phone_v.png](images%2Fphone_v.png)
 
 ![phone_h.png](images%2Fphone_h.png)
 
-### Tablet:
+### Tablet view:
 
 ![tablet_v.png](images%2Ftablet_v.png)
 
