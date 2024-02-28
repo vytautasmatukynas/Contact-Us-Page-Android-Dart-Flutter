@@ -49,50 +49,80 @@ class MyApp extends StatelessWidget {
                 indent: 100.0,
                 endIndent: 100.0,
               ),
-              Card(
-                color: Colors.white,
-                margin: const EdgeInsets.symmetric(
-                  vertical: 10.0,
-                  horizontal: 25.0,
-                ),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(5.0),
-                ),
-                child: ListTile(
-                  leading: const Icon(
-                    Icons.phone,
-                    color: Colors.blueGrey,
+              TextButton(
+                onPressed: () {
+                  // Add your functionality here
+                },
+                style: ButtonStyle(
+                  overlayColor: MaterialStateColor.resolveWith(
+                        (states) => Colors.tealAccent.withOpacity(0.3),
                   ),
-                  title: Text(
-                    '+000000000000000',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      color: Colors.blueGrey[700],
-                      fontFamily: 'Roboto',
+                  shape: MaterialStateProperty.resolveWith(
+                        (states) => RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(5.0)
+                    ),
+                  ),
+                ),
+                child: Card(
+                  color: Colors.white,
+                  margin: const EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 25.0,
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
+                  child: ListTile(
+                    leading: const Icon(
+                      Icons.phone,
+                      color: Colors.blueGrey,
+                    ),
+                    title: Text(
+                      '+000000000000000',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.blueGrey[700],
+                        fontFamily: 'Roboto',
+                      ),
                     ),
                   ),
                 ),
               ),
-              Card(
-                color: Colors.white,
-                margin: const EdgeInsets.symmetric(
-                  vertical: 10.0,
-                  horizontal: 25.0,
-                ),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(5.0),
-                ),
-                child: ListTile(
-                  leading: const Icon(
-                    Icons.email,
-                    color: Colors.blueGrey,
+              TextButton(
+                onPressed: () {
+                  // Add your functionality here
+                },
+                style: ButtonStyle(
+                  overlayColor: MaterialStateColor.resolveWith(
+                        (states) => Colors.tealAccent.withOpacity(0.3),
                   ),
-                  title: Text(
-                    'example@example.com',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      color: Colors.blueGrey[700],
-                      fontFamily: 'Roboto',
+                  shape: MaterialStateProperty.resolveWith(
+                        (states) => RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(5.0)
+                    ),
+                  ),
+                ),
+                child: Card(
+                  color: Colors.white,
+                  margin: const EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 25.0,
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
+                  child: ListTile(
+                    leading: const Icon(
+                      Icons.email,
+                      color: Colors.blueGrey,
+                    ),
+                    title: Text(
+                      'example@example.com',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Colors.blueGrey[700],
+                        fontFamily: 'Roboto',
+                      ),
                     ),
                   ),
                 ),
